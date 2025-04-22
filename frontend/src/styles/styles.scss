@@ -5,7 +5,7 @@ body {
 	height: 100%;
 	margin: 0;
 	overflow-y: auto; /* Permet le scroll vertical */
-  }
+}
 
 .required:after {
 	color: var(--primary-red);
@@ -77,11 +77,32 @@ html, body {
 .page-wrapper {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; // pleine hauteur de l'écran
+	min-height: 100vh;
 }
 
 main {
-	flex: 1; // prend tout l'espace disponible entre le header et le footer
+	flex: 1;
 }
 
+.table-visible-shadow {
+	background-color: #f9f9f9; /* gris très clair pour contraste */
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	padding: 1rem;
+}
+
+.p-datatable td,
+.p-datatable th {
+	border: 1px solid #ddd;
+}
+.p-datatable thead th {
+	background-color: #135e2c;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.p-datatable tbody tr:hover {
+	background-color: #e36d1e;
+	cursor: pointer;
+}
 

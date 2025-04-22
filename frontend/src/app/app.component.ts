@@ -20,18 +20,20 @@ import {AuthService} from "./services/auth.service";
 @Component({
 	selector: 'app-root',
 	standalone: true,
-	imports: [
-		RouterOutlet,
-		CommonModule,
-		MenubarModule,
-		InputTextModule,
-		MessagesModule,
-		ToastModule,
-		ButtonModule,
-		FooterComponent,
-		CardDemandeComponent,
-		HeroSectionComponent
-	],
+    imports: [
+        RouterOutlet,
+        CommonModule,
+        MenubarModule,
+        InputTextModule,
+        MessagesModule,
+        ToastModule,
+        ButtonModule,
+        FooterComponent,
+        CardDemandeComponent,
+        HeroSectionComponent,
+        FooterComponent,
+        HeroSectionComponent
+    ],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss'
 })

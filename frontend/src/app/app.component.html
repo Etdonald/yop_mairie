@@ -5,13 +5,32 @@
 			<img src="assets/img/logo.png" [height]="60" class="me-1"  alt="logo"/>
 		</ng-template>
 		<ng-template pTemplate="end">
-			<div class="p-d-flex align-items-center">
-				<b>{{ utilisateurConnecte?.nomEtPrenomAbrege() | titlecase }}</b>
-				&nbsp;
-				<button pButton pRipple icon="pi pi-power-off"
-						class="p-button-danger text-white" (click)="deconnecter()" label="Deconnexion" *ngIf="utilisateurConnecte"></button>
-				<button pButton pRipple icon="pi pi-power-off"
-						class="p-button-danger text-white" (click)="connecter()" label="Connectez vous" *ngIf="! utilisateurConnecte"></button>
+			<div class="utilisateur-connecte d-flex align-items-center gap-2">
+				<i class="pi pi-user text-orange-500"></i>
+				<span class="utilisateur-nom">
+				{{ utilisateurConnecte?.nomEtPrenomAbrege() | titlecase }}
+			  </span>
+
+				<button
+					pButton
+					pRipple
+					icon="pi pi-power-off"
+					class="btn-custom"
+					(click)="deconnecter()"
+					label="Déconnexion"
+					*ngIf="utilisateurConnecte">
+				</button>
+
+				<button
+					pButton
+					pRipple
+					icon="pi pi-power-off"
+					class="btn-custom"
+					(click)="connecter()"
+					label="Connexion"
+					*ngIf="!utilisateurConnecte">
+				</button>
+
 			</div>
 		</ng-template>
 	</p-menubar>
@@ -21,5 +40,5 @@
 	<main id="main">
 	</main>
 
-<app-footer></app-footer>
+	<app-footer></app-footer>
 </div>

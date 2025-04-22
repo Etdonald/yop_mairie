@@ -1,22 +1,29 @@
 .footer {
-	background-color: #111 !important;
+	background-color: #111;
 	font-size: 0.9rem;
+}
 
-	a {
-		text-decoration: none;
-		color: #ccc;
+.footer-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #fff;
+}
 
-		&:hover {
-			color: #fff;
-		}
-	}
+.footer-link {
+	display: block;
+	color: #bbb;
+	padding: 0.25rem 0;
+	transition: color 0.3s;
+	text-decoration: none;
+}
 
-	h6 {
-		font-size: 1rem;
-		margin-bottom: 0.5rem;
-	}
+.footer-link:hover {
+	color: #ff6600;
+	text-decoration: underline;
+}
 
-	.text-gray {
-		color: #aaa;
-	}
+.footer small,
+.text-muted {
+	color: #aaa !important;
 }
