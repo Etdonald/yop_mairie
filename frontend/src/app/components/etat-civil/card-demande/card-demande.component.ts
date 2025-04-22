@@ -21,7 +21,7 @@ export class CardDemandeComponent {
 
   services = [
     {
-      image: '/assets/img/naissance.jpg',
+      image: '/assets/img/extrait-naissance.jpg',
 		lien: '/demandes/celebration-mariage',
 		title: 'Acte de naissance',
 		description: `Un acte de naissance, signé par un officier d\'état civil, atteste une naissance et est requis pour certaines démarches administratives.`
@@ -34,14 +34,14 @@ export class CardDemandeComponent {
 		Il donne à un couple un statut légal et un régime matrimonial et crée entre les époux des droits et des obligations.`
     },
     {
-      image: '/assets/img/deces.jpg',
+      image: '/assets/img/decès.jpg',
 		lien: '/demandes/celebration-mariage',
 		title: ' Acte de décès',
 		description: `Un acte de décès est un acte juridique de l\'état civil. C\'est un acte authentique signé par
                             un officier de l\'état civil établi lors du décès d\'une personne.`
     },
 	  {
-		  image: '/assets/img/mariage.jpg',
+		  image: '/assets/img/acte-mariage.jpg',
 		  lien: '/demandes/celebration-mariage',
 		  title: 'Acte de mariage',
 		  description: `Un acte de mariage est un acte juridique de l\'état civil, c\'est un acte authentique signé

@@ -446,8 +446,8 @@
 	}
 
 	.p-datepicker table td > span.p-highlight {
-		color: #212529;
-		background: #C5E1A5;
+		color: #135e2c;
+		background: #ffffff;
 	}
 
 	.p-datepicker table td > span:focus {
@@ -457,8 +457,8 @@
 	}
 
 	.p-datepicker table td.p-datepicker-today > span {
-		background: #9CCC65;
-		color: #212529;
+		background: #ffffff;
+		color: #135e2c;
 		border-color: transparent;
 	}
 
@@ -1849,8 +1849,8 @@
 	}
 
 	.p-selectbutton .p-button.p-highlight {
-		background: #C5E1A5;
-		border-color: #C5E1A5;
+		background: #ffffff;
+		border-color: #ffffff;
 		color: #212529;
 	}
 
@@ -1860,8 +1860,8 @@
 	}
 
 	.p-selectbutton .p-button.p-highlight:hover {
-		background: #AED581;
-		border-color: #AED581;
+		background: #ffffff;
+		border-color: #ffffff;
 		color: #212529;
 	}
 
@@ -1962,8 +1962,8 @@
 	}
 
 	.p-togglebutton.p-button.p-highlight {
-		background: #C5E1A5;
-		border-color: #C5E1A5;
+		background: #ffffff;
+		border-color: #ffffff;
 		color: #212529;
 	}
 
@@ -1973,8 +1973,8 @@
 	}
 
 	.p-togglebutton.p-button.p-highlight:hover {
-		background: #AED581;
-		border-color: #AED581;
+		background: #ffffff;
+		border-color: #ffffff;
 		color: #212529;
 	}
 
@@ -2131,9 +2131,9 @@
 	}
 
 	.p-button {
-		color: #212529;
-		background: #C5E1A5;
-		border: 1px solid #C5E1A5;
+		color: #135e2c;
+		background: #ffffff;
+		border: 1px solid #ffffff;
 		padding: 0.3rem 0.5rem;
 		font-size: 1rem;
 		transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -2162,8 +2162,8 @@
 	}
 
 	.p-button:not(:disabled):hover {
-		background: #AED581;
-		color: #212529;
+		background: #135e2c;
+		color: #ffffff;
 		border-color: #AED581;
 	}
 
@@ -2852,7 +2852,7 @@
 	}
 
 	.p-carousel .p-carousel-indicators .p-carousel-indicator button {
-		background-color: #4b4b4b;
+		background-color: #c8560c;
 		width: 2rem;
 		height: 0.5rem;
 		transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
@@ -2860,7 +2860,7 @@
 	}
 
 	.p-carousel .p-carousel-indicators .p-carousel-indicator button:hover {
-		background: #4c4c4c;
+		background: #c8560c;
 	}
 
 	.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
@@ -2868,9 +2868,12 @@
 		color: #212529;
 	}
 
+
+
 	.p-datatable .p-paginator-top {
 		border-width: 1px 1px 0 1px;
 		border-radius: 0;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	}
 
 	.p-datatable .p-paginator-bottom {
@@ -2915,7 +2918,7 @@
 	}
 
 	.p-datatable .p-sortable-column .p-sortable-column-icon {
-		color: #888888;
+		color: #c8560c;
 		margin-left: 0.5rem;
 	}
 
@@ -2925,12 +2928,12 @@
 		min-width: 1.143rem;
 		line-height: 1.143rem;
 		color: #212529;
-		background: #C5E1A5;
+		background: #ffffff;
 		margin-left: 0.5rem;
 	}
 
 	.p-datatable .p-sortable-column:not(.p-highlight):hover {
-		background: #4c4c4c;
+		background: #c8560c;
 		color: #dedede;
 	}
 
@@ -2939,7 +2942,7 @@
 	}
 
 	.p-datatable .p-sortable-column.p-highlight {
-		background: #C5E1A5;
+		background: #ffffff;
 		color: #212529;
 	}
 
@@ -2979,7 +2982,7 @@
 	.p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel {
 		width: 2rem;
 		height: 2rem;
-		color: #8888;
+		color: #c8560c;
 		border: 0 none;
 		background: transparent;
 		border-radius: 50%;
@@ -3015,7 +3018,7 @@
 
 	.p-datatable .p-datatable-tbody > tr.p-highlight {
 		background: #C5E1A5;
-		color: #212529;
+		color: #424d57;
 	}
 
 	.p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-top > td {
@@ -3027,7 +3030,7 @@
 	}
 
 	.p-datatable.p-datatable-hoverable-rows .p-datatable-tbody > tr:not(.p-highlight):hover {
-		background: #4c4c4c;
+		background: var(--primary-orange);
 		color: #dedede;
 	}
 
