@@ -1,0 +1,87 @@
+em.fa-power-off {
+	cursor: pointer;
+}
+
+.message-erreur-container {
+	min-height: 40px;
+}
+
+::ng-deep .custom-menubar {
+	//position: fixed;
+	height: auto;
+	top: 0;
+	left: 3rem;
+    right: 3rem;
+	width: 100%;
+	z-index: 1000;
+	border: none;
+	box-shadow: none;
+	padding: 10px;
+	transition: background-color 0.3s ease-in-out;
+	font-size: 20px;
+}
+
+  ::ng-deep .p-menubar {
+	background: var(--primary-white) !important;
+	//  background-color: rgba(255, 255, 255, 0.2) !important;
+	//  margin-top: 1.5rem;
+  }
+
+  ::ng-deep .p-menubar-root-list {
+	justify-content: center;
+  }
+
+  ::ng-deep .p-menubar-end {
+	margin-left: auto;
+  }
+
+  .p-menubar-root-list > .p-menuitem {
+	color: white !important;
+  }
+::ng-deep .p-menuitem .p-submenu-list {
+	background-color: #070707; // couleur du sous-menu
+}
+#main {
+	margin-bottom: 50px; /* ou plus si tu veux plus d'espace */
+}
+
+.utilisateur-connecte {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	.utilisateur-nom {
+		font-weight: 600;
+		color: #070707; // orange primaire
+		font-size: 1rem;
+		white-space: nowrap;
+	}
+
+	i.pi-user {
+		font-size: 1.2rem;
+	}
+}
+
+.btn-custom {
+	background: linear-gradient(135deg, #f97316, #ea580c);
+	color: #fff;
+	border: none;
+	padding: 0.6rem 1.2rem;
+	border-radius: 1.5rem;
+	font-weight: 600;
+	font-size: 0.95rem;
+	box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background: linear-gradient(135deg, #ea580c, #f97316);
+		transform: scale(1.05);
+		box-shadow: 0 6px 15px rgba(234, 88, 12, 0.6);
+	}
+
+}
+
+
+
+
+

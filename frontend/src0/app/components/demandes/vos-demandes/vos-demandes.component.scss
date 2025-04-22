@@ -1,0 +1,47 @@
+.text-EN_COURS {
+	color: #c8560c;
+}
+.text-TERMINE {
+	color: #135e2c;
+}
+.text-VALIDE {
+	color: #135e2c;
+}
+.text-REJETE {
+	color: #c31818;
+}
+.text-NON_DEMARRE {
+	color: #0d2dac;
+}
+.table-visible-shadow {
+	background-color: #ffffff;
+	box-shadow: 0 26px 50px rgb(17, 17, 17); /* ombre douce et large */
+	border-radius: 50px;
+	padding: 0.3rem;
+}
+.table-visible-shadow {
+	margin: 2rem 0;
+}
+
+.badge {
+	padding: 0.5em 0.75em;
+	border-radius: 1rem;
+	font-size: 0.9rem;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.page-info {
+	font-size: 2.2rem;
+	//color:rgb(209, 121, 20);
+	color: black;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	display: flex;                 // Alignement horizontal pour l'icône et le texte
+	align-items: center;
+	animation: fadeIn 1s ease-in; /* Animation pour le texte */
+
+}
+

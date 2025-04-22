@@ -1,0 +1,42 @@
+.services {
+    background: linear-gradient(135deg, #f6f9fc 0%, #f0f4f8 100%);
+    background-size: cover;
+    color: white;
+}
+
+.service-card {
+    background: var(--primary-white);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(25, 25, 25, 0.2);
+    color: rgb(16, 16, 16);
+    transition: all 0.3s ease;
+    height: 450px; /* Cartes plus grandes */
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(255,255,255,0.2);
+}
+
+.service-icon {
+    max-width: 150px; /* Icônes plus grandes */
+    margin-bottom: 20px;
+    filter: brightness(1.2) saturate(1.5);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        height: auto;
+    }
+}
